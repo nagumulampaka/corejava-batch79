@@ -1,7 +1,7 @@
 package com.languagefundamentals;
 
 // byte -> short -> int -> long -> float -> double
-public class TestDataTypesDemo1 {
+public class PrimitiveDataTypesDemo {
 
 	// byte = 1 byte = 8 bits = -128 to 127
 	// By default RHS numeric values are int so int cannot convert into byte directly.
@@ -66,7 +66,7 @@ public class TestDataTypesDemo1 {
 
 	public static void main(String[] args) {
 		System.out.println("Main Method Started");
-		TestDataTypesDemo1 t = new TestDataTypesDemo1();
+		PrimitiveDataTypesDemo t = new PrimitiveDataTypesDemo();
 
 		System.out.println("byte value: " + t.b); // 0 (default value)
 		System.out.println("byte value: " + t.b1); // -128
